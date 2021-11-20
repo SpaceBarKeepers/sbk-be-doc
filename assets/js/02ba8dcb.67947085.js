@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksbk_be_doc=self.webpackChunksbk_be_doc||[]).push([[259],{222:function(e){e.exports=JSON.parse('{"permalink":"/sbk-be-doc/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

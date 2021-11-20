@@ -47,7 +47,7 @@
               "id": "intro",
               "isDocsHomePage": false,
               "title": "Documentation",
-              "description": "Let's discover SBK Backend.",
+              "description": "Let's discover SBK Backend .",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",

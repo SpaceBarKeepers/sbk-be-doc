@@ -1,0 +1,23 @@
+{
+  "unversionedId": "admin-frontend/create-a-page",
+  "id": "admin-frontend/create-a-page",
+  "isDocsHomePage": false,
+  "title": "Admin Frontend Component structure",
+  "description": "Component relationships",
+  "source": "@site/docs/admin-frontend/create-a-page.md",
+  "sourceDirName": "admin-frontend",
+  "slug": "/admin-frontend/create-a-page",
+  "permalink": "/docs/admin-frontend/create-a-page",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/admin-frontend/create-a-page.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Documentation",
+    "permalink": "/docs/intro"
+  }
+}

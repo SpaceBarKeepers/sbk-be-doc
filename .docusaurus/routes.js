@@ -100,11 +100,11 @@ export default [
   },
   {
     path: '/sbk-be-doc/docs',
-    component: ComponentCreator('/sbk-be-doc/docs','d37'),
+    component: ComponentCreator('/sbk-be-doc/docs','5ae'),
     routes: [
       {
-        path: '/sbk-be-doc/docs/admin-frontend/create-a-page',
-        component: ComponentCreator('/sbk-be-doc/docs/admin-frontend/create-a-page','c90'),
+        path: '/sbk-be-doc/docs/admin-frontend/component-structure',
+        component: ComponentCreator('/sbk-be-doc/docs/admin-frontend/component-structure','e5c'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

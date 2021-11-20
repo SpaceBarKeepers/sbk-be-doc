@@ -1,0 +1,23 @@
+{
+  "unversionedId": "admin-frontend/component-structure",
+  "id": "admin-frontend/component-structure",
+  "isDocsHomePage": false,
+  "title": "Admin Frontend Component structure",
+  "description": "Component relationships",
+  "source": "@site/docs/admin-frontend/component-structure.md",
+  "sourceDirName": "admin-frontend",
+  "slug": "/admin-frontend/component-structure",
+  "permalink": "/sbk-be-doc/docs/admin-frontend/component-structure",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/admin-frontend/component-structure.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Documentation",
+    "permalink": "/sbk-be-doc/docs/intro"
+  }
+}

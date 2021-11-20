@@ -1,0 +1,30 @@
+{
+  "/sbk-be-doc/blog/tags/facebook": {
+    "allTagsPath": "/sbk-be-doc/blog/tags",
+    "slug": "/sbk-be-doc/blog/tags/facebook",
+    "name": "facebook",
+    "count": 1,
+    "permalink": "/sbk-be-doc/blog/tags/facebook"
+  },
+  "/sbk-be-doc/blog/tags/hello": {
+    "allTagsPath": "/sbk-be-doc/blog/tags",
+    "slug": "/sbk-be-doc/blog/tags/hello",
+    "name": "hello",
+    "count": 2,
+    "permalink": "/sbk-be-doc/blog/tags/hello"
+  },
+  "/sbk-be-doc/blog/tags/docusaurus": {
+    "allTagsPath": "/sbk-be-doc/blog/tags",
+    "slug": "/sbk-be-doc/blog/tags/docusaurus",
+    "name": "docusaurus",
+    "count": 4,
+    "permalink": "/sbk-be-doc/blog/tags/docusaurus"
+  },
+  "/sbk-be-doc/blog/tags/hola": {
+    "allTagsPath": "/sbk-be-doc/blog/tags",
+    "slug": "/sbk-be-doc/blog/tags/hola",
+    "name": "hola",
+    "count": 1,
+    "permalink": "/sbk-be-doc/blog/tags/hola"
+  }
+}

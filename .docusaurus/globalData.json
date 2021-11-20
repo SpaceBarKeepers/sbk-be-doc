@@ -11,8 +11,8 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "admin-frontend/create-a-page",
-              "path": "/sbk-be-doc/docs/admin-frontend/create-a-page",
+              "id": "admin-frontend/component-structure",
+              "path": "/sbk-be-doc/docs/admin-frontend/component-structure",
               "sidebar": "tutorialSidebar"
             },
             {

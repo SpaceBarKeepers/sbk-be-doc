@@ -5,8 +5,8 @@
         {
           "versionName": "current",
           "versionLabel": "Next",
-          "versionPath": "/docs",
-          "tagsPath": "/docs/tags",
+          "versionPath": "/sbk-be-doc/docs",
+          "tagsPath": "/sbk-be-doc/docs/tags",
           "versionEditUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs",
           "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/edit/main/website/i18n/en/docusaurus-plugin-content-docs/current",
           "versionBanner": null,
@@ -20,16 +20,16 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "unversionedId": "admin-frontend/create-a-page",
-              "id": "admin-frontend/create-a-page",
+              "unversionedId": "admin-frontend/component-structure",
+              "id": "admin-frontend/component-structure",
               "isDocsHomePage": false,
               "title": "Admin Frontend Component structure",
               "description": "Component relationships",
-              "source": "@site/docs/admin-frontend/create-a-page.md",
+              "source": "@site/docs/admin-frontend/component-structure.md",
               "sourceDirName": "admin-frontend",
-              "slug": "/admin-frontend/create-a-page",
-              "permalink": "/docs/admin-frontend/create-a-page",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/admin-frontend/create-a-page.md",
+              "slug": "/admin-frontend/component-structure",
+              "permalink": "/sbk-be-doc/docs/admin-frontend/component-structure",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/admin-frontend/component-structure.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -39,7 +39,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Documentation",
-                "permalink": "/docs/intro"
+                "permalink": "/sbk-be-doc/docs/intro"
               }
             },
             {
@@ -51,7 +51,7 @@
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
-              "permalink": "/docs/intro",
+              "permalink": "/sbk-be-doc/docs/intro",
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/intro.md",
               "tags": [],
               "version": "current",
@@ -62,7 +62,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Admin Frontend Component structure",
-                "permalink": "/docs/admin-frontend/create-a-page"
+                "permalink": "/sbk-be-doc/docs/admin-frontend/component-structure"
               }
             }
           ],
@@ -80,7 +80,7 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "admin-frontend/create-a-page"
+                    "id": "admin-frontend/component-structure"
                   }
                 ]
               }
@@ -97,7 +97,7 @@
         {
           "id": "welcome",
           "metadata": {
-            "permalink": "/blog/welcome",
+            "permalink": "/sbk-be-doc/blog/welcome",
             "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2021-08-26-welcome/index.md",
             "source": "@site/blog/2021-08-26-welcome/index.md",
             "title": "Welcome",
@@ -107,15 +107,15 @@
             "tags": [
               {
                 "label": "facebook",
-                "permalink": "/blog/tags/facebook"
+                "permalink": "/sbk-be-doc/blog/tags/facebook"
               },
               {
                 "label": "hello",
-                "permalink": "/blog/tags/hello"
+                "permalink": "/sbk-be-doc/blog/tags/hello"
               },
               {
                 "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "permalink": "/sbk-be-doc/blog/tags/docusaurus"
               }
             ],
             "readingTime": 0.405,
@@ -138,7 +138,7 @@
             ],
             "nextItem": {
               "title": "MDX Blog Post",
-              "permalink": "/blog/mdx-blog-post"
+              "permalink": "/sbk-be-doc/blog/mdx-blog-post"
             }
           },
           "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
@@ -146,7 +146,7 @@
         {
           "id": "mdx-blog-post",
           "metadata": {
-            "permalink": "/blog/mdx-blog-post",
+            "permalink": "/sbk-be-doc/blog/mdx-blog-post",
             "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2021-08-01-mdx-blog-post.mdx",
             "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
             "title": "MDX Blog Post",
@@ -156,7 +156,7 @@
             "tags": [
               {
                 "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "permalink": "/sbk-be-doc/blog/tags/docusaurus"
               }
             ],
             "readingTime": 0.175,
@@ -172,11 +172,11 @@
             ],
             "prevItem": {
               "title": "Welcome",
-              "permalink": "/blog/welcome"
+              "permalink": "/sbk-be-doc/blog/welcome"
             },
             "nextItem": {
               "title": "Long Blog Post",
-              "permalink": "/blog/long-blog-post"
+              "permalink": "/sbk-be-doc/blog/long-blog-post"
             }
           },
           "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
@@ -184,7 +184,7 @@
         {
           "id": "long-blog-post",
           "metadata": {
-            "permalink": "/blog/long-blog-post",
+            "permalink": "/sbk-be-doc/blog/long-blog-post",
             "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2019-05-29-long-blog-post.md",
             "source": "@site/blog/2019-05-29-long-blog-post.md",
             "title": "Long Blog Post",
@@ -194,11 +194,11 @@
             "tags": [
               {
                 "label": "hello",
-                "permalink": "/blog/tags/hello"
+                "permalink": "/sbk-be-doc/blog/tags/hello"
               },
               {
                 "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "permalink": "/sbk-be-doc/blog/tags/docusaurus"
               }
             ],
             "readingTime": 2.05,
@@ -214,11 +214,11 @@
             ],
             "prevItem": {
               "title": "MDX Blog Post",
-              "permalink": "/blog/mdx-blog-post"
+              "permalink": "/sbk-be-doc/blog/mdx-blog-post"
             },
             "nextItem": {
               "title": "First Blog Post",
-              "permalink": "/blog/first-blog-post"
+              "permalink": "/sbk-be-doc/blog/first-blog-post"
             }
           },
           "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
@@ -226,7 +226,7 @@
         {
           "id": "first-blog-post",
           "metadata": {
-            "permalink": "/blog/first-blog-post",
+            "permalink": "/sbk-be-doc/blog/first-blog-post",
             "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2019-05-28-first-blog-post.md",
             "source": "@site/blog/2019-05-28-first-blog-post.md",
             "title": "First Blog Post",
@@ -236,11 +236,11 @@
             "tags": [
               {
                 "label": "hola",
-                "permalink": "/blog/tags/hola"
+                "permalink": "/sbk-be-doc/blog/tags/hola"
               },
               {
                 "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
+                "permalink": "/sbk-be-doc/blog/tags/docusaurus"
               }
             ],
             "readingTime": 0.12,
@@ -256,7 +256,7 @@
             ],
             "prevItem": {
               "title": "Long Blog Post",
-              "permalink": "/blog/long-blog-post"
+              "permalink": "/sbk-be-doc/blog/long-blog-post"
             }
           },
           "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
@@ -265,7 +265,7 @@
       "blogListPaginated": [
         {
           "metadata": {
-            "permalink": "/blog",
+            "permalink": "/sbk-be-doc/blog",
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
@@ -284,22 +284,22 @@
         }
       ],
       "blogTags": {
-        "/blog/tags/facebook": {
+        "/sbk-be-doc/blog/tags/facebook": {
           "name": "facebook",
           "items": [
             "welcome"
           ],
-          "permalink": "/blog/tags/facebook"
+          "permalink": "/sbk-be-doc/blog/tags/facebook"
         },
-        "/blog/tags/hello": {
+        "/sbk-be-doc/blog/tags/hello": {
           "name": "hello",
           "items": [
             "welcome",
             "long-blog-post"
           ],
-          "permalink": "/blog/tags/hello"
+          "permalink": "/sbk-be-doc/blog/tags/hello"
         },
-        "/blog/tags/docusaurus": {
+        "/sbk-be-doc/blog/tags/docusaurus": {
           "name": "docusaurus",
           "items": [
             "welcome",
@@ -307,29 +307,29 @@
             "long-blog-post",
             "first-blog-post"
           ],
-          "permalink": "/blog/tags/docusaurus"
+          "permalink": "/sbk-be-doc/blog/tags/docusaurus"
         },
-        "/blog/tags/hola": {
+        "/sbk-be-doc/blog/tags/hola": {
           "name": "hola",
           "items": [
             "first-blog-post"
           ],
-          "permalink": "/blog/tags/hola"
+          "permalink": "/sbk-be-doc/blog/tags/hola"
         }
       },
-      "blogTagsListPath": "/blog/tags"
+      "blogTagsListPath": "/sbk-be-doc/blog/tags"
     }
   },
   "docusaurus-plugin-content-pages": {
     "default": [
       {
         "type": "jsx",
-        "permalink": "/",
+        "permalink": "/sbk-be-doc/",
         "source": "@site/src/pages/index.js"
       },
       {
         "type": "mdx",
-        "permalink": "/markdown-page",
+        "permalink": "/sbk-be-doc/markdown-page",
         "source": "@site/src/pages/markdown-page.md"
       }
     ]

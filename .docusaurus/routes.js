@@ -4,121 +4,121 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug','3d6'),
+    path: '/sbk-be-doc/__docusaurus/debug',
+    component: ComponentCreator('/sbk-be-doc/__docusaurus/debug','401'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config','914'),
+    path: '/sbk-be-doc/__docusaurus/debug/config',
+    component: ComponentCreator('/sbk-be-doc/__docusaurus/debug/config','970'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content','c28'),
+    path: '/sbk-be-doc/__docusaurus/debug/content',
+    component: ComponentCreator('/sbk-be-doc/__docusaurus/debug/content','17f'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData','3cf'),
+    path: '/sbk-be-doc/__docusaurus/debug/globalData',
+    component: ComponentCreator('/sbk-be-doc/__docusaurus/debug/globalData','8c6'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata','31b'),
+    path: '/sbk-be-doc/__docusaurus/debug/metadata',
+    component: ComponentCreator('/sbk-be-doc/__docusaurus/debug/metadata','7d6'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry','0da'),
+    path: '/sbk-be-doc/__docusaurus/debug/registry',
+    component: ComponentCreator('/sbk-be-doc/__docusaurus/debug/registry','a81'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes','244'),
+    path: '/sbk-be-doc/__docusaurus/debug/routes',
+    component: ComponentCreator('/sbk-be-doc/__docusaurus/debug/routes','2af'),
     exact: true
   },
   {
-    path: '/blog',
-    component: ComponentCreator('/blog','520'),
+    path: '/sbk-be-doc/blog',
+    component: ComponentCreator('/sbk-be-doc/blog','251'),
     exact: true
   },
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive','f4c'),
+    path: '/sbk-be-doc/blog/archive',
+    component: ComponentCreator('/sbk-be-doc/blog/archive','27f'),
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post','6c7'),
+    path: '/sbk-be-doc/blog/first-blog-post',
+    component: ComponentCreator('/sbk-be-doc/blog/first-blog-post','ef9'),
     exact: true
   },
   {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post','f06'),
+    path: '/sbk-be-doc/blog/long-blog-post',
+    component: ComponentCreator('/sbk-be-doc/blog/long-blog-post','379'),
     exact: true
   },
   {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post','bee'),
+    path: '/sbk-be-doc/blog/mdx-blog-post',
+    component: ComponentCreator('/sbk-be-doc/blog/mdx-blog-post','bcb'),
     exact: true
   },
   {
-    path: '/blog/tags',
-    component: ComponentCreator('/blog/tags','e13'),
+    path: '/sbk-be-doc/blog/tags',
+    component: ComponentCreator('/sbk-be-doc/blog/tags','5ad'),
     exact: true
   },
   {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus','ddf'),
+    path: '/sbk-be-doc/blog/tags/docusaurus',
+    component: ComponentCreator('/sbk-be-doc/blog/tags/docusaurus','9b8'),
     exact: true
   },
   {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook','ede'),
+    path: '/sbk-be-doc/blog/tags/facebook',
+    component: ComponentCreator('/sbk-be-doc/blog/tags/facebook','f40'),
     exact: true
   },
   {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello','4c2'),
+    path: '/sbk-be-doc/blog/tags/hello',
+    component: ComponentCreator('/sbk-be-doc/blog/tags/hello','f5e'),
     exact: true
   },
   {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola','752'),
+    path: '/sbk-be-doc/blog/tags/hola',
+    component: ComponentCreator('/sbk-be-doc/blog/tags/hola','9f1'),
     exact: true
   },
   {
-    path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome','bfa'),
+    path: '/sbk-be-doc/blog/welcome',
+    component: ComponentCreator('/sbk-be-doc/blog/welcome','605'),
     exact: true
   },
   {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page','be1'),
+    path: '/sbk-be-doc/markdown-page',
+    component: ComponentCreator('/sbk-be-doc/markdown-page','7d8'),
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs','9de'),
+    path: '/sbk-be-doc/docs',
+    component: ComponentCreator('/sbk-be-doc/docs','d37'),
     routes: [
       {
-        path: '/docs/admin-frontend/create-a-page',
-        component: ComponentCreator('/docs/admin-frontend/create-a-page','24a'),
+        path: '/sbk-be-doc/docs/admin-frontend/create-a-page',
+        component: ComponentCreator('/sbk-be-doc/docs/admin-frontend/create-a-page','c90'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/docs/intro',
-        component: ComponentCreator('/docs/intro','aed'),
+        path: '/sbk-be-doc/docs/intro',
+        component: ComponentCreator('/sbk-be-doc/docs/intro','b37'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/','deb'),
+    path: '/sbk-be-doc/',
+    component: ComponentCreator('/sbk-be-doc/','182'),
     exact: true
   },
   {

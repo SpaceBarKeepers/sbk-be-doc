@@ -2,7 +2,7 @@ export default {
   "title": "Space Bar Keepers Backend",
   "tagline": "Most powerful CMS for developers",
   "url": "https://your-docusaurus-test-site.com",
-  "baseUrl": "/",
+  "baseUrl": "/sbk-be-doc/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",

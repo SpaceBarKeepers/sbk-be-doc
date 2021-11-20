@@ -3,19 +3,19 @@
   "items": [
     {
       "title": "Welcome",
-      "permalink": "/blog/welcome"
+      "permalink": "/sbk-be-doc/blog/welcome"
     },
     {
       "title": "MDX Blog Post",
-      "permalink": "/blog/mdx-blog-post"
+      "permalink": "/sbk-be-doc/blog/mdx-blog-post"
     },
     {
       "title": "Long Blog Post",
-      "permalink": "/blog/long-blog-post"
+      "permalink": "/sbk-be-doc/blog/long-blog-post"
     },
     {
       "title": "First Blog Post",
-      "permalink": "/blog/first-blog-post"
+      "permalink": "/sbk-be-doc/blog/first-blog-post"
     }
   ]
 }

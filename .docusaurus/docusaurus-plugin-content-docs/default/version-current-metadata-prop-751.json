@@ -11,7 +11,7 @@
       {
         "type": "link",
         "label": "Documentation",
-        "href": "/docs/intro"
+        "href": "/sbk-be-doc/docs/intro"
       },
       {
         "type": "category",
@@ -22,7 +22,7 @@
           {
             "type": "link",
             "label": "Admin Frontend Component structure",
-            "href": "/docs/admin-frontend/create-a-page"
+            "href": "/sbk-be-doc/docs/admin-frontend/create-a-page"
           }
         ]
       }

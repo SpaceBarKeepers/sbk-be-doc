@@ -7,7 +7,7 @@
   "source": "@site/docs/admin-frontend/create-a-page.md",
   "sourceDirName": "admin-frontend",
   "slug": "/admin-frontend/create-a-page",
-  "permalink": "/docs/admin-frontend/create-a-page",
+  "permalink": "/sbk-be-doc/docs/admin-frontend/create-a-page",
   "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/admin-frontend/create-a-page.md",
   "tags": [],
   "version": "current",
@@ -18,6 +18,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Documentation",
-    "permalink": "/docs/intro"
+    "permalink": "/sbk-be-doc/docs/intro"
   }
 }
